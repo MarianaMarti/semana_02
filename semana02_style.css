@@ -16,13 +16,14 @@ body{
   justify-content: flex-end;
   opacity: 0.7;
   background: rgb(19, 19, 19);
-  height: 40px;
-  font-size: 1.7rem;
+  height: 36px;
+  font-size: 1.5rem;
   color: #fff;
+  margin-bottom: 4px;
 }
 .navbar a{
   text-align: center;
-  padding: 5px 25px;
+  padding: 4px 25px;
 }
 .navbar a:hover{
   border-bottom: #1d346a 4px solid;
@@ -35,6 +36,7 @@ a {
   margin: 20px auto;
   max-width: 600px;
   padding: 20px;
+  padding-top: 10px;
   max-height: 100vh;
 }
 .form-container {
@@ -51,7 +53,7 @@ a {
   text-align: center;
 }
 h1{
-  margin-top: 16px;
+  margin-top: 0px;
   font-size: 3.4rem;
 }
 .form-container p{
@@ -76,7 +78,7 @@ h1{
   display: block;
   width: 100%;
   padding: 10px;
-  margin-top: 35px;
+  margin-top: 25px;
   background: #1d346a;
   color: rgb(230, 227, 227);
   cursor: pointer;
@@ -92,7 +94,7 @@ h1{
 }
 #cadastro {
   margin-top: 14px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 1px;
 }
 footer a {
