@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+  font-family:"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  background-image: url('./img/starfall-gif-46.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+.form-container {
+  background: rgb(19, 19, 19);
+  padding: 30px 25px 15px;
+  color: rgb(173, 173, 173);
+  border-radius: 10px;
+}
+.form-container h1,.form-container p {
+  font-weight: 100;
+  text-align: center;
+}
+h1{
+  font-size: 34px;
+}
+.form-container p{
+  font-size: 17px;
+  margin-top: 5px;
+}
+.form-container .login label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(120, 120, 120);
+  font-size: 14px;
+}
+.form-container .login input {
+  width: 100%;
+  padding: 10px;
+  border: rgb(138, 138, 138) 2px solid;
+  border-radius: 5px;
+}
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #1d346a;
+  color: rgb(230, 227, 227);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.form-container button:hover {
+  background: #335f95
+}
+.form-container{
+  font-size: 13px;
+  margin-top: 20px;
+}
+#cadastro {
+  margin-top: 15px;
+  font-size: 13px;
+}
+footer a {
+  color:#4868b3;
+}
