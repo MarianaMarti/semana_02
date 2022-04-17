@@ -4,7 +4,7 @@
   }
   .navbar {
     flex-direction: column;
-    height: 120px;
+    height: 110px;
   }
   .navbar img{
     margin-top: 12px;
@@ -32,7 +32,7 @@
 }
 @media (min-width: 501px) and (max-width: 768px){
   #container{
-    max-width: 500px;
+    max-width: 460px;
   }
   h1{
     font-size: 3.2rem;
